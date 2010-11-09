@@ -2,3 +2,8 @@ Dynamic Memory Allocation Test Program
 
 - ptmalloc
 - tcmalloc
+
+USAGE
+
+./malloc_test.sh 1000000
+
