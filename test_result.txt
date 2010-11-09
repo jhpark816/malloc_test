@@ -1,0 +1,84 @@
+[ptmalloc_test] mem_limit=67108864(64 MB) malloc_count=10000000
+-----------------------------------
+MALLOC:     73818112 (   70.4 MB) Heap size
+MALLOC:     66672544 (   63.6 MB) Bytes Used
+MALLOC:      7145568 (    6.8 MB) Bytes Free
+338.33user 1.83system 5:40.27elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+485408minor)pagefaults 0swaps
+[tcmalloc_test] mem_limit=67108864(64 MB) malloc_count=10000000
+------------------------------------------------
+MALLOC:    104857600 (  100.0 MB) Heap size
+MALLOC:     67181280 (   64.1 MB) Bytes in use by application
+MALLOC:     32702464 (   31.2 MB) Bytes free
+311.91user 0.79system 5:12.82elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+183891minor)pagefaults 0swaps
+[ptmalloc_test] mem_limit=134217728(128 MB) malloc_count=10000000
+-----------------------------------
+MALLOC:    143728640 (  137.1 MB) Heap size
+MALLOC:    133785744 (  127.6 MB) Bytes Used
+MALLOC:      9942896 (    9.5 MB) Bytes Free
+337.00user 1.15system 5:38.25elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+289845minor)pagefaults 0swaps
+[tcmalloc_test] mem_limit=134217728(128 MB) malloc_count=10000000
+------------------------------------------------
+MALLOC:    183500800 (  175.0 MB) Heap size
+MALLOC:    134738176 (  128.5 MB) Bytes in use by application
+MALLOC:     42176512 (   40.2 MB) Bytes free
+311.38user 0.90system 5:12.36elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+226104minor)pagefaults 0swaps
+[ptmalloc_test] mem_limit=268435456(256 MB) malloc_count=10000000
+-----------------------------------
+MALLOC:    275447808 (  262.7 MB) Heap size
+MALLOC:    268260224 (  255.8 MB) Bytes Used
+MALLOC:      7187584 (    6.9 MB) Bytes Free
+335.93user 0.68system 5:36.68elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+161224minor)pagefaults 0swaps
+[tcmalloc_test] mem_limit=268435456(256 MB) malloc_count=10000000
+------------------------------------------------
+MALLOC:    335544320 (  320.0 MB) Heap size
+MALLOC:    270135888 (  257.6 MB) Bytes in use by application
+MALLOC:     56057856 (   53.5 MB) Bytes free
+312.16user 1.06system 5:13.35elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+256827minor)pagefaults 0swaps
+[ptmalloc_test] mem_limit=536870912(512 MB) malloc_count=10000000
+-----------------------------------
+MALLOC:    540389376 (  515.4 MB) Heap size
+MALLOC:    536677680 (  511.8 MB) Bytes Used
+MALLOC:      3711696 (    3.5 MB) Bytes Free
+335.62user 0.97system 5:36.67elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+260521minor)pagefaults 0swaps
+[tcmalloc_test] mem_limit=536870912(512 MB) malloc_count=10000000
+------------------------------------------------
+MALLOC:    628097024 (  599.0 MB) Heap size
+MALLOC:    540440432 (  515.4 MB) Bytes in use by application
+MALLOC:     74461184 (   71.0 MB) Bytes free
+312.66user 1.23system 5:14.00elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+338580minor)pagefaults 0swaps
+[ptmalloc_test] mem_limit=1073741824(1024 MB) malloc_count=10000000
+-----------------------------------
+MALLOC:   1077125120 ( 1027.2 MB) Heap size
+MALLOC:   1073827136 ( 1024.1 MB) Bytes Used
+MALLOC:      3297984 (    3.1 MB) Bytes Free
+336.02user 1.77system 5:37.89elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+516898minor)pagefaults 0swaps
+[tcmalloc_test] mem_limit=1073741824(1024 MB) malloc_count=10000000
+------------------------------------------------
+MALLOC:   1195376640 ( 1140.0 MB) Heap size
+MALLOC:   1081328064 ( 1031.2 MB) Bytes in use by application
+MALLOC:     97275904 (   92.8 MB) Bytes free
+312.85user 1.62system 5:14.58elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+440454minor)pagefaults 0swaps
+[ptmalloc_test] mem_limit=2147483648(2048 MB) malloc_count=10000000
+-----------------------------------
+MALLOC:   2151362560 ( 2051.7 MB) Heap size
+MALLOC:   2147321120 ( 2047.8 MB) Bytes Used
+MALLOC:      4041440 (    3.9 MB) Bytes Free
+335.61user 3.41system 5:39.12elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+1029020minor)pagefaults 0swaps
+[tcmalloc_test] mem_limit=2147483648(2048 MB) malloc_count=10000000
+------------------------------------------------
+MALLOC:   2310012928 ( 2203.0 MB) Heap size
+MALLOC:   2162207856 ( 2062.0 MB) Bytes in use by application
+MALLOC:    125046784 (  119.3 MB) Bytes free
+313.65user 2.48system 5:16.22elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+726932minor)pagefaults 0swaps
