@@ -1,0 +1,58 @@
+[tcmalloc_test] mem_limit=2147483648(2048 MB) malloc_count=100000000
+execution(10000000) mem_alloc=2146710224 item_count=39203
+------------------------------------------------
+MALLOC:   2310012928 ( 2203.0 MB) Heap size
+MALLOC:   2162207936 ( 2062.0 MB) Bytes in use by application
+MALLOC:    124719104 (  118.9 MB) Bytes free
+execution(20000000) mem_alloc=2147329511 item_count=39500
+------------------------------------------------
+MALLOC:   2324692992 ( 2217.0 MB) Heap size
+MALLOC:   2163055760 ( 2062.9 MB) Bytes in use by application
+MALLOC:    133902336 (  127.7 MB) Bytes free
+execution(30000000) mem_alloc=2147348249 item_count=39304
+------------------------------------------------
+MALLOC:   2333081600 ( 2225.0 MB) Heap size
+MALLOC:   2163126704 ( 2062.9 MB) Bytes in use by application
+MALLOC:    139030528 (  132.6 MB) Bytes free
+execution(40000000) mem_alloc=2147100106 item_count=39705
+------------------------------------------------
+MALLOC:   2343567360 ( 2235.0 MB) Heap size
+MALLOC:   2162794032 ( 2062.6 MB) Bytes in use by application
+MALLOC:    127922176 (  122.0 MB) Bytes free
+execution(50000000) mem_alloc=2147093810 item_count=39908
+------------------------------------------------
+MALLOC:   2358247424 ( 2249.0 MB) Heap size
+MALLOC:   2162960528 ( 2062.8 MB) Bytes in use by application
+MALLOC:    143015936 (  136.4 MB) Bytes free
+execution(60000000) mem_alloc=2147318016 item_count=39702
+------------------------------------------------
+MALLOC:   2358247424 ( 2249.0 MB) Heap size
+MALLOC:   2162978352 ( 2062.8 MB) Bytes in use by application
+MALLOC:    134991872 (  128.7 MB) Bytes free
+execution(70000000) mem_alloc=2147390274 item_count=39208
+------------------------------------------------
+MALLOC:   2358247424 ( 2249.0 MB) Heap size
+MALLOC:   2162829344 ( 2062.6 MB) Bytes in use by application
+MALLOC:    125681664 (  119.9 MB) Bytes free
+execution(80000000) mem_alloc=2146879172 item_count=38908
+------------------------------------------------
+MALLOC:   2358247424 ( 2249.0 MB) Heap size
+MALLOC:   2162324048 ( 2062.2 MB) Bytes in use by application
+MALLOC:    152707072 (  145.6 MB) Bytes free
+execution(90000000) mem_alloc=2146832386 item_count=39301
+------------------------------------------------
+MALLOC:   2359296000 ( 2250.0 MB) Heap size
+MALLOC:   2162353728 ( 2062.2 MB) Bytes in use by application
+MALLOC:    156487680 (  149.2 MB) Bytes free
+execution(100000000) mem_alloc=2147070598 item_count=39006
+------------------------------------------------
+MALLOC:   2359296000 ( 2250.0 MB) Heap size
+MALLOC:   2162570768 ( 2062.4 MB) Bytes in use by application
+MALLOC:    156262400 (  149.0 MB) Bytes free
+------------------------------------------------
+MALLOC:   2359296000 ( 2250.0 MB) Heap size
+MALLOC:   2162570768 ( 2062.4 MB) Bytes in use by application
+MALLOC:    156262400 (  149.0 MB) Bytes free
+3143.55user 8.67system 52:33.00elapsed 99%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+2527383minor)pagefaults 0swaps
+
