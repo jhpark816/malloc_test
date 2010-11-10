@@ -145,9 +145,9 @@ static void dump_malloc_info()
 
 main(int argc, void **argv)
 {
-    int mlimit_MB;
-    int max_count;
-    int try_count;
+    unsigned int mlimit_MB;
+    unsigned int max_count;
+    unsigned int try_count;
     int data_len; 
     int item_len; 
     int free_len;    
@@ -169,7 +169,7 @@ main(int argc, void **argv)
 
     init_sample_data();
 
-    fprintf(stderr, "[%s] mem_limit=%u(%d MB) malloc_count=%d\n",
+    fprintf(stderr, "[%s] mem_limit=%u(%u MB) malloc_count=%u\n",
                     exe_name, mem_limit, mlimit_MB, max_count); 
 
 #ifdef USE_TCMALLOC
@@ -202,7 +202,7 @@ main(int argc, void **argv)
         while ((item_len + heap_size) > mem_limit) {
             item_ptr = remove_item_from_tail(); 
             if (item_ptr == NULL) {
-                fprintf(stderr, "empty list: mem_alloc=%d\n", mem_alloc);
+                fprintf(stderr, "empty list: mem_alloc=%u\n", mem_alloc);
                 exit(1);
             } 
             free_len = (sizeof(item_t) + item_ptr->nbytes);
@@ -219,7 +219,7 @@ main(int argc, void **argv)
         while ((item_len + mem_alloc) > mem_limit) {
             item_ptr = remove_item_from_tail(); 
             if (item_ptr == NULL) {
-                fprintf(stderr, "empty list: mem_alloc=%d\n", mem_alloc);
+                fprintf(stderr, "empty list: mem_alloc=%u\n", mem_alloc);
                 exit(1);
             } 
             free_len = (sizeof(item_t) + item_ptr->nbytes);
@@ -240,8 +240,9 @@ main(int argc, void **argv)
 
         if ((++try_count % 100000) == 0) {
 #if 0
-            fprintf(stderr, "execution(%d) mem_alloc=%d item_count=%d\n",
+            fprintf(stderr, "execution(%u) mem_alloc=%u item_count=%u\n",
                             try_count, mem_alloc, item_count);
+            /* dump_malloc_info(); */
 #endif
         }
     }
